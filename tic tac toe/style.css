@@ -1,0 +1,21 @@
+.toeBox {
+  display: grid;
+  grid-template-columns: 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px;
+}
+div{
+  border: 1px solid black;
+}
+.bruhA{
+  background: url("tac.png")
+}
+.bruhB{
+  background: url("tic.png")
+}
+.bruhA, .bruhB {
+  height: 50px;
+  width: 50px;
+}
+.clicked{
+  display: none
+}
